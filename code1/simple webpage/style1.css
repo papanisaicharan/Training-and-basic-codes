@@ -1,0 +1,89 @@
+body {
+  padding: 0;
+  margin: 0;
+background: bisque;
+
+}
+
+.header {
+  background-image: url(ipl-m3.jpg);
+  height: 500px;
+  border: 0px;
+  background-size: cover;
+  background-position: center;
+}
+
+h1 {
+  color: oldlace;
+  font-style: georgia;
+  font-size: 50px;
+  margin: 0;
+  position: relative;
+  text-align: center;
+  top: 2%;
+}
+
+p {
+  margin: 40px 50px;
+  font-size: 18px;
+}
+
+.matter {
+
+}
+
+.matter ul {
+  margin: 50px auto;
+  padding: 0;
+  width: 60%;
+}
+
+  h2 {
+  color: royalblue;
+  text-align: left;
+  text-transform: uppercase;
+  font-size: 28px;
+}
+
+ .matter li {
+  border-bottom: 2px solid sandybrown;
+  margin: 50px 0px;
+  padding-bottom:30px;
+}
+
+.like {
+  padding: 0;
+  margin: 0;
+background: bisque;
+width: 100%;
+text-align: center;
+
+}
+
+.like ul{
+  padding: 0px;
+}
+
+.like li {
+  display: inline-block;
+  margin: 20px 50px 0px 50px;
+}
+
+.btn {
+  color: #ff0000;
+  border: 1px solid #ff0000;
+  border-radius: 4px;
+  font-family: 'Roboto', sans-serif;
+  font-size: 18px;
+  font-weight: 900;
+  margin: 10px 0px;
+  padding: 20px;
+  text-decoration: none;
+  background-color: burlywood;
+}
+
+.btn:hover {
+  background-color: chocolate;
+  border: 1px solid chocolate;
+  color: #FFF;
+}
