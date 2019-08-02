@@ -1,6 +1,6 @@
-package passportapplication;
+package onetoone;
 
-import java.util.Calendar;
+import java.util.Calendar; 
 import java.util.Date;
 
 import org.hibernate.Session;
@@ -16,7 +16,7 @@ public class DbApp {
 		SessionFactory factory = cfg.buildSessionFactory();
 		Session ssn = factory.openSession();
 		Transaction tx = ssn.beginTransaction();
-		
+		 
 		Applicant applicant = new Applicant();
 		applicant.setAge(20);
 		applicant.setCity("hyderabad");

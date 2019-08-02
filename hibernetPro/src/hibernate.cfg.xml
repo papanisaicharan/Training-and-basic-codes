@@ -15,7 +15,7 @@
 		<mapping resource="inheritance/Book.hbm.xml"/>
 		<mapping class="hdmcustomer.Customer"></mapping>
 		
-		<mapping class="passportapplication.Applicant"></mapping>
-		<mapping class="passportapplication.Passport"></mapping>
+		<mapping class="onetoone.Applicant"></mapping>
+		<mapping class="onetoone.Passport"></mapping>
 	</session-factory>
 </hibernate-configuration>
