@@ -1,0 +1,73 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<beans xmlns="http://www.springframework.org/schema/beans"
+	xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" 
+        xmlns:context="http://www.springframework.org/schema/context"
+        xmlns:mvc="http://www.springframework.org/schema/mvc"
+	xmlns:aop="http://www.springframework.org/schema/aop"
+	xsi:schemaLocation="http://www.springframework.org/schema/beans
+    http://www.springframework.org/schema/beans/spring-beans-3.0.xsd
+    http://www.springframework.org/schema/context
+    http://www.springframework.org/schema/context/spring-context-3.0.xsd
+    http://www.springframework.org/schema/mvc 
+    http://www.springframework.org/schema/mvc/spring-mvc-3.0.xsd
+    http://www.springframework.org/schema/aop 
+    http://www.springframework.org/schema/aop/spring-aop-3.0.xsd">
+ 
+ 	
+ 	<!-- <bean id="emp" class="beans.Employee" scope="prototype">
+ 	</bean> -->
+	
+	<bean id="student" class="beans.Student">
+		<constructor-arg name="regno" value="123"></constructor-arg>
+		<constructor-arg name="stdname" value="abcd"></constructor-arg>
+		<constructor-arg name="avg" value="123"></constructor-arg>
+		
+		<property name="regno" value="1234"></property>
+		<property name="stdname" value="saicharan"></property>
+		<property name="avg" value="1234"></property>
+	</bean>
+	
+	<!-- <bean id="addr" class="beans.Address">
+		<property name="street" value="sham"></property>
+		<property name="city" value="madhapur"></property>
+	</bean>
+	
+	<bean id="cust" class="beans.Customer">
+		<property name="id" value="10"></property>
+		<property name="name" value="saicharan"></property>
+		<property name="addr" ref="addr"></property>
+	</bean> -->
+	
+	<!-- <bean id="addr" class="beans.Address">
+		<property name="street" value="sham"></property>
+		<property name="city" value="madhapur"></property>
+	</bean>
+	
+	<bean id="cust" class="beans.Customer" autowire="byName">
+		<property name="id" value="10"></property>
+		<property name="name" value="saicharan"></property>
+	</bean> -->
+	
+	<bean id="addr" class="beans.Address">
+		<property name="street" value="sham"></property>
+		<property name="city" value="madhapur"></property>
+	</bean>
+	
+	<bean id="cust" class="beans.Customer" autowire="byType">
+		<property name="id" value="10"></property>
+		<property name="name" value="saicharan"></property>
+	</bean> 
+	
+	<bean id="emp1" class="day3.Employee" scope="prototype">
+		<property name="code" value="123"></property>
+		<property name="name" value="saicharan"></property>
+		<property name="skills">
+			<list>
+				<value>java</value>
+				<value>oracle</value>
+				<value>hibernet</value>
+			</list>
+		</property>
+	</bean>
+</beans>
+

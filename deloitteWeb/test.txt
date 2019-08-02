@@ -1,0 +1,12 @@
+
+<%-- 	<%String color = request.getParameter("color").toUpperCase(); %>
+<%--	<h3>It is <span style="background-color : <%=color%>;">color</span> .</h3> --%>
+<%-- <%if(color.equals("RED")){--%>
+<%--	<h3>It is <span style="background-color : red;">red</span> color.</h3>
+<% } else if(color.equals("BLUE")) { %>
+	<h3>It is <span style="background-color : blue;">red</span> color.</h3>
+	<% } else if(color.equals("GREEN")) { %>
+	<h3>It is <span style="background-color : green;">red</span> color.</h3>
+		<%} else{%>
+		<h3> not applicable</h3>
+		<%} %>--%>

@@ -1,0 +1,25 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<classpath>
+	<classpathentry kind="con" path="org.eclipse.jdt.launching.JRE_CONTAINER/org.eclipse.jdt.internal.debug.ui.launcher.StandardVMType/JavaSE-1.8"/>
+	<classpathentry kind="src" path="src"/>
+	<classpathentry kind="lib" path="C:/nexwave/ojdbc14.jar"/>
+	<classpathentry kind="lib" path="C:/Users/admin/Desktop/sir&apos;s share/hibernate jars/antlr-2.7.6.jar"/>
+	<classpathentry kind="lib" path="C:/Users/admin/Desktop/sir&apos;s share/hibernate jars/cglib-2.2.jar"/>
+	<classpathentry kind="lib" path="C:/Users/admin/Desktop/sir&apos;s share/hibernate jars/commons-collections-3.1.jar"/>
+	<classpathentry kind="lib" path="C:/Users/admin/Desktop/sir&apos;s share/hibernate jars/commons-logging-1.1.jar"/>
+	<classpathentry kind="lib" path="C:/Users/admin/Desktop/sir&apos;s share/hibernate jars/dom4j.jar"/>
+	<classpathentry kind="lib" path="C:/Users/admin/Desktop/sir&apos;s share/hibernate jars/ehcache-1.2.3.jar"/>
+	<classpathentry kind="lib" path="C:/Users/admin/Desktop/sir&apos;s share/hibernate jars/ejb3-persistence.jar"/>
+	<classpathentry kind="lib" path="C:/Users/admin/Desktop/sir&apos;s share/hibernate jars/hibernate3.jar"/>
+	<classpathentry kind="lib" path="C:/Users/admin/Desktop/sir&apos;s share/hibernate jars/hibernate-annotations.jar"/>
+	<classpathentry kind="lib" path="C:/Users/admin/Desktop/sir&apos;s share/hibernate jars/hibernate-commons-annotations.jar"/>
+	<classpathentry kind="lib" path="C:/Users/admin/Desktop/sir&apos;s share/hibernate jars/hibernate-entitymanager.jar"/>
+	<classpathentry kind="lib" path="C:/Users/admin/Desktop/sir&apos;s share/hibernate jars/hibernate-jpa-2.1-api-1.0.0.final.jar"/>
+	<classpathentry kind="lib" path="C:/Users/admin/Desktop/sir&apos;s share/hibernate jars/hibernate-validator.jar"/>
+	<classpathentry kind="lib" path="C:/Users/admin/Desktop/sir&apos;s share/hibernate jars/javassist-3.9.0.GA.jar"/>
+	<classpathentry kind="lib" path="C:/Users/admin/Desktop/sir&apos;s share/hibernate jars/jta-1.1.jar"/>
+	<classpathentry kind="lib" path="C:/Users/admin/Desktop/sir&apos;s share/hibernate jars/log4j-1.2.14.jar"/>
+	<classpathentry kind="lib" path="C:/Users/admin/Desktop/sir&apos;s share/hibernate jars/slf4j-api-1.5.8.jar"/>
+	<classpathentry kind="lib" path="C:/Users/admin/Desktop/sir&apos;s share/hibernate jars/slf4j-log4j12-1.5.8.jar"/>
+	<classpathentry kind="output" path="bin"/>
+</classpath>
