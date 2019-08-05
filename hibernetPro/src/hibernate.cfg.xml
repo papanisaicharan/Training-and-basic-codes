@@ -12,6 +12,10 @@
 		<property name="hbm2ddl.auto">update</property>
 		<property name="show_sql">true</property>
 		<mapping resource="hbcore/Employee.hbm.xml"/>
+		
+		<mapping resource="springhb/Employee.hbm.xml"/>
+		<mapping resource="springhb/springhbn.xml"/>
+		
 		<mapping resource="inheritance/Book.hbm.xml"/>
 		<mapping class="hdmcustomer.Customer"></mapping>
 		

@@ -21,5 +21,15 @@
 	<classpathentry kind="lib" path="C:/Users/admin/Desktop/sir&apos;s share/hibernate jars/log4j-1.2.14.jar"/>
 	<classpathentry kind="lib" path="C:/Users/admin/Desktop/sir&apos;s share/hibernate jars/slf4j-api-1.5.8.jar"/>
 	<classpathentry kind="lib" path="C:/Users/admin/Desktop/sir&apos;s share/hibernate jars/slf4j-log4j12-1.5.8.jar"/>
+	<classpathentry kind="lib" path="C:/Users/admin/Desktop/sir&apos;s share/spring-aop-4.0.6.RELEASE.jar"/>
+	<classpathentry kind="lib" path="C:/Users/admin/Desktop/sir&apos;s share/spring-beans-4.0.6.RELEASE.jar"/>
+	<classpathentry kind="lib" path="C:/Users/admin/Desktop/sir&apos;s share/spring-context-4.0.6.RELEASE.jar"/>
+	<classpathentry kind="lib" path="C:/Users/admin/Desktop/sir&apos;s share/spring-core-4.0.6.RELEASE.jar"/>
+	<classpathentry kind="lib" path="C:/Users/admin/Desktop/sir&apos;s share/spring-expression-4.0.6.RELEASE.jar"/>
+	<classpathentry kind="lib" path="C:/Users/admin/Desktop/sir&apos;s share/spring-jdbc-4.0.6.RELEASE.jar"/>
+	<classpathentry kind="lib" path="C:/Users/admin/Desktop/sir&apos;s share/spring-orm-4.0.6.RELEASE.jar"/>
+	<classpathentry kind="lib" path="C:/Users/admin/Desktop/sir&apos;s share/spring-tx-4.0.6.RELEASE.jar"/>
+	<classpathentry kind="lib" path="C:/Users/admin/Desktop/sir&apos;s share/spring-web-4.0.6.RELEASE.jar"/>
+	<classpathentry kind="lib" path="C:/Users/admin/Desktop/sir&apos;s share/spring-webmvc-4.0.6.RELEASE.jar"/>
 	<classpathentry kind="output" path="bin"/>
 </classpath>

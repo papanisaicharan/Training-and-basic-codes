@@ -12,6 +12,7 @@ import hbcore.Employee2;
 
 public class BookApp {
 
+	@SuppressWarnings("unchecked")
 	public static void main(String[] args) {
 		// TODO Auto-generated method stub
 		Configuration cfg = new Configuration();
