@@ -5,9 +5,9 @@ import org.springframework.web.bind.annotation.RequestMapping;
 
 @Controller
 public class SampleController {
-	@RequestMapping("/welcome")
-	public String welcome() {
-		System.out.println("welcome1");
-		return "welcome";
-	}
+	@RequestMapping("/hello")  
+    public String hello(){  
+        return "Hello";  
+    }  
+
 }
